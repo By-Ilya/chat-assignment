@@ -2,6 +2,14 @@
   "name": "chat-assignment",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**' --format node_modules/eslint-friendly-formatter . --ext .js --ext .jsx --cache",
+    "lint:fix": "eslint './src/**' --format node_modules/eslint-friendly-formatter . --ext .js --ext .jsx --cache --fix"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -9,19 +17,19 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+    "web-vitals": "^1.1.1",
+    "sass": "^1.32.10",
+    "prop-types": "^15.7.2",
+    "classnames": "^2.3.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.24.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.23.2"
   },
   "browserslist": {
     "production": [

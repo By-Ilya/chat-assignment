@@ -1,0 +1,39 @@
+.container {
+  height: 4rem;
+  cursor: pointer;
+  padding-bottom: 1rem;
+  :hover {
+    background-color: lightblue;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 4rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+
+    .contactInfo {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      width: 15vw;
+      .name {
+        height: 40%;
+        display: block;
+        font-weight: bold;
+        font-size: 1rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .lastMessage {
+        height: 60%;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+  max-width: 100%;
+
+  .contacts {
+    width: 25%;
+    display: block;
+  }
+  .messages {
+    width: 50%;
+    display: block;
+  }
+}

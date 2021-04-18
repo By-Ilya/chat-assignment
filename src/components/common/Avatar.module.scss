@@ -1,0 +1,16 @@
+.avatar {
+  display: block;
+  width: 4rem;
+  height: 100%;
+  border-radius: 4rem;
+  .contactLetters {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+  }
+}

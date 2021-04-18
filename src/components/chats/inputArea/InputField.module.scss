@@ -1,0 +1,29 @@
+.inputContainer {
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .input {
+    display: block;
+    width: 94%;
+    height: 100%;
+    padding: 0 0 0 1rem;
+    margin: 0;
+    border: none;
+  }
+
+  .button, .hiddenButton {
+    margin-left: 1rem;
+    padding: 1% 1% 1% 1%;
+    display: block;
+    width: 5%;
+    height: 2rem;
+    cursor: pointer;
+  }
+
+  .hiddenButton {
+    display: none;
+  }
+}

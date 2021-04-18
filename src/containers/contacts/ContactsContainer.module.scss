@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+
+  .header {
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    padding: 5%;
+    font-weight: bold;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .contactsList {
+    height: 95vh;
+    border: 1px solid lightgrey;
+    overflow: scroll;
+  }
+}

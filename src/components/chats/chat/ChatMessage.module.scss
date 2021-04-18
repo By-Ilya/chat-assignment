@@ -1,0 +1,29 @@
+.message {
+  margin: 0.25rem 0;
+  display: flex;
+
+  &.leftContainer, .left {
+    justify-content: center;
+    margin: 0.3rem 0 0 0;
+    max-width: 15rem;
+  }
+
+  .left {
+    max-width: 15rem;
+    border-radius: 0 8px 8px 8px;
+    background-color: lightgrey;
+    padding: .5rem .75rem;
+  }
+
+  &.rightContainer, .right {
+    max-width: 15rem;
+    margin: .3rem 0 0 auto;
+  }
+
+  .right {
+    max-width: 15rem;
+    background-color: lightcoral;
+    border-radius: 8px 0 8px 8px;
+    padding: .5rem .75rem;
+  }
+}
